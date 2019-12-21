@@ -1,0 +1,33 @@
+@page
+@model Appsx.Pages.ListarModel;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h1>Página de contatos</h1>
+<form method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>#</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var contato in Model.Contato)
+            {
+                <tr>
+                    <td>@contato.Id</td>
+                    <td>@contato.Nome</td>
+                    <td>
+                        <a asp-page="./Editar" asp-asp-route-id="@contato.Id">Editar</a>|
+                        <button type="submit" asp-page-handler="delete"
+                        asp-route-id="@contato.Id"> Apagar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+    <a asp-page="Criar">Criar contato</a>
+
+</form>

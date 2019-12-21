@@ -30,7 +30,7 @@ public class CriarModel: PageModel
         }
         _contexto.Contatos.Add(Contato);
         await _contexto.SaveChangesAsync();
-        return RedirectToPage("./index");
+        return RedirectToPage("./Listar");
     }
 }
 
