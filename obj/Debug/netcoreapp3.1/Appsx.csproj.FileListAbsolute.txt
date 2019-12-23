@@ -44,3 +44,4 @@
 /home/stenioneves/Appsx/obj/Debug/netcoreapp3.1/Razor/Pages/index2.cshtml.g.cs
 /home/stenioneves/Appsx/obj/Debug/netcoreapp3.1/Razor/Pages/Criar.cshtml.g.cs
 /home/stenioneves/Appsx/obj/Debug/netcoreapp3.1/Razor/Pages/Listar.cshtml.g.cs
+/home/stenioneves/Appsx/obj/Debug/netcoreapp3.1/Razor/Pages/Editar.cshtml.g.cs

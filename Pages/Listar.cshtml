@@ -19,7 +19,9 @@
                     <td>@contato.Id</td>
                     <td>@contato.Nome</td>
                     <td>
-                        <a asp-page="./Editar" asp-asp-route-id="@contato.Id">Editar</a>|
+                        <!--Alteração asp-asp-route-id não está direcionado, forçando a referencia -->
+                        <a href="./Editar/@contato.Id">Editar</a>|
+                        <!-- O link não estava enviando o Id de forma automatica, logo colocado o ID na referencia asp-page-->
                         <button type="submit" asp-page-handler="delete"
                         asp-route-id="@contato.Id"> Apagar</button>
                     </td>

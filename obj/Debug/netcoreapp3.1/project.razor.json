@@ -20531,6 +20531,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/stenioneves/Appsx/Pages/Editar.cshtml",
+      "TargetPath": "Pages/Editar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/stenioneves/Appsx/Pages/Privacy.cshtml",
       "TargetPath": "Pages/Privacy.cshtml",
       "FileKind": "mvc"
